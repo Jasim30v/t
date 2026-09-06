@@ -1,16 +1,16 @@
-// 🌷 ZHARE 2026 - Pink Blossom Configuration
-// Firebase: dokf-33e47 | Cloudinary: qlathl0k
-// ✨ PREMIUM: Notifications + Compact Grid + Delete Videos
+// ☁️ MNAENCA 2026 - Sky Blue Luxury Configuration
+// Firebase: muvg-42126 | Cloudinary: dmqyd0haj
+// ✨ PREMIUM: TikTok Comments + Share System + Watermark + Enhanced Profile
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCpsELZB_QUxVspsw-leit7t4zIzco4AKA",
-    authDomain: "dokf-33e47.firebaseapp.com",
-    databaseURL: "https://dokf-33e47-default-rtdb.firebaseio.com",
-    projectId: "dokf-33e47",
-    storageBucket: "dokf-33e47.firebasestorage.app",
-    messagingSenderId: "259177277381",
-    appId: "1:259177277381:web:fedfdd27aef84fa1b4cdac",
-    measurementId: "G-B89W16NXQB"
+    apiKey: "AIzaSyCqDvG98pEqmZHKZienquJEq6gS1kNjK8M",
+    authDomain: "muvg-42126.firebaseapp.com",
+    databaseURL: "https://muvg-42126-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "muvg-42126",
+    storageBucket: "muvg-42126.firebasestorage.app",
+    messagingSenderId: "514075097173",
+    appId: "1:514075097173:web:6fab4e9598549691cc7cdc",
+    measurementId: "G-4VP8E6WJ48"
 };
 
 // Initialize Firebase
@@ -21,23 +21,26 @@ const db = firebase.database();
 // Cloudinary Configuration
 const CLOUD_NAME = "vt6hibdu";
 const UPLOAD_PRESET = "y66.ko";
+const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/auto/upload`;
 
-// 🌷 ZHARE Settings
+// ☁️ MNAENCA Settings
 const ADMIN_EMAILS = ['jasim28v@gmail.com'];
 const DICEBEAR_URL = "https://api.dicebear.com/7.x/big-smile/svg";
 const COVER_COLORS = [
-    "linear-gradient(135deg, #fbcfe8, #f9a8d4, #f472b6)",
-    "linear-gradient(135deg, #fce7f3, #fbcfe8, #f9a8d4)",
-    "linear-gradient(135deg, #fdf2f8, #fce7f3, #fbcfe8)",
-    "linear-gradient(135deg, #ec4899, #db2777, #be185d)",
-    "linear-gradient(135deg, #f472b6, #ec4899, #db2777)",
-    "linear-gradient(135deg, #fdf2f8, #fbcfe8, #ec4899)"
+    "linear-gradient(135deg, #0c4a6e, #0369a1, #0284c7)",
+    "linear-gradient(135deg, #082f49, #0c4a6e, #0369a1)",
+    "linear-gradient(135deg, #164e63, #155e75, #0e7490)",
+    "linear-gradient(135deg, #1e3a8a, #2563eb, #3b82f6)",
+    "linear-gradient(135deg, #0284c7, #38bdf8, #7dd3fc)",
+    "linear-gradient(135deg, #0a1628, #0f2847, #0369a1)"
 ];
 
-// 🌷 App Info
-const APP_NAME = "ZHARE";
-const APP_VERSION = "2026.1";
-const PRIMARY_COLOR = "#f472b6";
-const SECONDARY_COLOR = "#f9a8d4";
+// ☁️ App Info
+const APP_NAME = "MNAENCA";
+const APP_VERSION = "2026.3";
+const PRIMARY_COLOR = "#0ea5e9";
+const SECONDARY_COLOR = "#38bdf8";
+const WATERMARK_TEXT = "☁️ MNAENCA";
+const WATERMARK_URL = "https://res.cloudinary.com/dmqyd0haj/image/upload/v1/watermark_mnaenca";
 
-console.log('🌷 %c'+APP_NAME+' v'+APP_VERSION+' Ready ✨', 'color: #f472b6; font-size: 16px; font-weight: bold;');
+console.log('☁️ %c'+APP_NAME+' v'+APP_VERSION+' Ready ✨', 'color: #0ea5e9; font-size: 16px; font-weight: bold;');
