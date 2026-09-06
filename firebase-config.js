@@ -1,16 +1,16 @@
-// 💖 MNAENCA 2026 - Rose Gold Configuration
-// Firebase: gkma-39b5b | Cloudinary: dbp9gzroi
-// ✨ PREMIUM: Notifications + Compact Grid + Delete Videos
+// ☁️ MNAENCA 2026 - Sky Blue Luxury Configuration
+// Firebase: muvg-42126 | Cloudinary: dmqyd0haj
+// ✨ PREMIUM: Comments + Share + Wallet + Enhanced Profile
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBJQe36z09S0KJSyTCAYFUJ3Eahi3cvPuo",
-    authDomain: "gkma-39b5b.firebaseapp.com",
-    databaseURL: "https://gkma-39b5b-default-rtdb.firebaseio.com",
-    projectId: "gkma-39b5b",
-    storageBucket: "gkma-39b5b.firebasestorage.app",
-    messagingSenderId: "964651557859",
-    appId: "1:964651557859:web:292a7f9df84ff04ee3b6d6",
-    measurementId: "G-P29F1FND72"
+    apiKey: "AIzaSyCqDvG98pEqmZHKZienquJEq6gS1kNjK8M",
+    authDomain: "muvg-42126.firebaseapp.com",
+    databaseURL: "https://muvg-42126-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "muvg-42126",
+    storageBucket: "muvg-42126.firebasestorage.app",
+    messagingSenderId: "514075097173",
+    appId: "1:514075097173:web:6fab4e9598549691cc7cdc",
+    measurementId: "G-4VP8E6WJ48"
 };
 
 // Initialize Firebase
@@ -21,23 +21,34 @@ const db = firebase.database();
 // Cloudinary Configuration
 const CLOUD_NAME = "vt6hibdu";
 const UPLOAD_PRESET = "y66.ko";
+const CLOUDINARY_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/auto/upload`;
+const CLOUDINARY_IMAGE_UPLOAD_URL = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
 
-// 💖 MNAENCA Settings
+// ☁️ MNAENCA Settings
 const ADMIN_EMAILS = ['jasim28v@gmail.com'];
 const DICEBEAR_URL = "https://api.dicebear.com/7.x/big-smile/svg";
 const COVER_COLORS = [
-    "linear-gradient(135deg, #831843, #9d174d, #be185d)",
-    "linear-gradient(135deg, #4c0519, #831843, #9d174d)",
-    "linear-gradient(135deg, #701a75, #86198f, #a21caf)",
-    "linear-gradient(135deg, #ec4899, #db2777, #be185d)",
-    "linear-gradient(135deg, #f472b6, #ec4899, #db2777)",
-    "linear-gradient(135deg, #1a0a15, #2d0a1e, #ec4899)"
+    "linear-gradient(135deg, #0c4a6e, #0369a1, #0284c7)",
+    "linear-gradient(135deg, #082f49, #0c4a6e, #0369a1)",
+    "linear-gradient(135deg, #164e63, #155e75, #0e7490)",
+    "linear-gradient(135deg, #1e3a8a, #2563eb, #3b82f6)",
+    "linear-gradient(135deg, #0284c7, #38bdf8, #7dd3fc)",
+    "linear-gradient(135deg, #0a1628, #0f2847, #0369a1)"
 ];
 
-// 💖 App Info
-const APP_NAME = "MNAENCA";
-const APP_VERSION = "2026.1";
-const PRIMARY_COLOR = "#ec4899";
-const SECONDARY_COLOR = "#f472b6";
+// 💰 Iraqi Dinar Earnings Settings
+const VIEW_RATE_IQD = 100;
+const MIN_WITHDRAWAL_IQD = 10000;
+const USD_TO_IQD = 1450;
 
-console.log('💖 %c'+APP_NAME+' v'+APP_VERSION+' Ready ✨', 'color: #ec4899; font-size: 16px; font-weight: bold;');
+// ☁️ App Info
+const APP_NAME = "MNAENCA";
+const APP_VERSION = "2026.4";
+const PRIMARY_COLOR = "#0ea5e9";
+const SECONDARY_COLOR = "#38bdf8";
+const GOLD_COLOR = "#fbbf24";
+const WATERMARK_TEXT = "☁️ MNAENCA";
+const WATERMARK_URL = "https://res.cloudinary.com/dmqyd0haj/image/upload/v1/watermark_mnaenca";
+
+console.log('☁️ %c'+APP_NAME+' v'+APP_VERSION+' Ready ✨', 'color: #0ea5e9; font-size: 16px; font-weight: bold;');
+console.log('💰 %cEarnings System Active - '+VIEW_RATE_IQD+' IQD/View', 'color: #fbbf24; font-size: 14px; font-weight: bold;');
